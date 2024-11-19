@@ -1,26 +1,31 @@
 header {
-    background-image: url(imagenes/367fd23d58f11a1b1e231321a254b06e.jpg);
-    background-size: cover;          
-    background-repeat: no-repeat;    
-    background-position: center;     
-    height: 8em;                    
-    text-align: center;                   
+    background-color: darkblue;   
+    height: 9em;                    
+    text-align: center;   
+    border: solid; 
+    border-radius: 1em;               
 }
 header a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5em;
     padding: 1em;
 }
 header a:hover{
-    background-color: skyblue;
-    padding: 0.5em;
+    color: skyblue;
     cursor: pointer;
 }
 header h1{
+    margin-top: 0.25em;
     font-size: 3em;
     text-decoration:underline;
+    color: skyblue;
 }
 body{
     background-color: skyblue;
+    background-image: url(imagenes/depositphotos_394201182-stock-photo-grunge-navy-dark-blue-abstract.jpg);
+    background-size: cover;          
+    background-repeat: no-repeat;        
+    height: 40em;     
+    text-align: center;   
 }
