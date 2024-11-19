@@ -1,0 +1,26 @@
+header {
+    background-image: url(imagenes/367fd23d58f11a1b1e231321a254b06e.jpg);
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-position: center;     
+    height: 8em;                    
+    text-align: center;                   
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 1em;
+}
+header a:hover{
+    background-color: skyblue;
+    padding: 0.5em;
+    cursor: pointer;
+}
+header h1{
+    font-size: 3em;
+    text-decoration:underline;
+}
+body{
+    background-color: skyblue;
+}
