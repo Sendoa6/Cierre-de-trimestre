@@ -32,12 +32,12 @@ body {
 }
 h2{
     color: white;
-    font-size: 6em;
+    font-size: 5em;
     background-color: skyblue;
     width: 35%;
     border: solid black;
     border-radius: 0.25em;
-    margin-left: 8em;
+    margin-left: 7.5em;
 }
 footer {
     margin: 2em auto 0;
