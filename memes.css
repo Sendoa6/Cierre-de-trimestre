@@ -1,3 +1,13 @@
+body {
+    background-color: skyblue;
+    background-image: url(imagenes/hi-res-sky-wallpaper-x3u06qyjlf91xjnd.jpg);
+    background-size: cover; 
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: skyblue;
     height: 9em;       
@@ -6,29 +16,23 @@ header {
     border: solid; 
     border-radius: 1em;               
 }
-header a{
+header a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
     padding: 1em;
 }
-header a:hover{
+header a:hover {
     color: blue;
     cursor: pointer;
 }
-header h1{
+header h1 {
     margin-top: 0.25em;
     font-size: 3em;
-    text-decoration:underline;
+    text-decoration: underline;
     color: white;
 }
-body {
-    background-color: skyblue;
-    background-image: url(imagenes/hi-res-sky-wallpaper-x3u06qyjlf91xjnd.jpg);
-    background-size: 300em; 
-    height: 100%;
-    text-align: center;
-}
+
 footer {
     margin: 2em auto 0;
     width: 99%; 
@@ -38,12 +42,24 @@ footer {
     padding: 0.5em;
     text-align: center;    
 }
-#imagenes{
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, auto);  
+    gap: 1em; 
+    margin: 2em auto;
+    width: 90%; 
+    justify-items: center; 
+    align-items: center; 
 }
-.img{
-    margin: 3em;
-    width: 25em;
+
+.img {
+    width: 18em; 
+    height: auto; 
+}
+
+iframe.img {
+    width: 18em; 
+    height: 14em; 
 }
